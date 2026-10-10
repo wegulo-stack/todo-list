@@ -1,16 +1,12 @@
-# React + Vite
+# My Todo List
+This is a simple React app that displays a list of tasks. The app uses an array of todo objects and renders each task using the JavaScript `map()` method.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Installation
+1. Clone the repository: git clone https://github.com/your-username/your-repository-name.git
+2. Navigate to the project folder
+3. Install the project dependencies: npm install
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Running the development server
+1. Start the development server by running: npm run dev
+2. You'll see a local development URL in the terminal: http://localhost:5173
+3. Open the URL in a browser to view the application
