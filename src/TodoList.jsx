@@ -1,13 +1,9 @@
-function TodoList() {
-  const todoList = [
-    {id: 1, title: "Clean the house"}, 
-    {id: 2, title: "Do dishes"}, 
-    {id: 3, title: "Complete CTD assignment"}
-  ];
+import TodoListItem from './TodoListItem.jsx';
+function TodoList({ todoList }) {
   return (
     <ul>
       {todoList.map((todo) => (
-        <li key={todo.id}>{todo.title}</li>
+        <TodoListItem key={todo.id} todo={todo} />
       ))}
     </ul>
   );
