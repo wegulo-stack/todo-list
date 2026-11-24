@@ -269,7 +269,7 @@ async function updateTodo(editedTodo) {
               setFilterError('');
             }}
           >
-            Retry
+            Reset Filters
           </button>
         </div>
       )}
